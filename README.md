@@ -64,13 +64,13 @@ pip install numpy pandas matplotlib
 
 
 
-1\. Place the specimen information in `data/specimens.csv`.
+1. Place the specimen information in `data/specimens.csv`.
 
-2\. Place the raw tensile test CSV files inside `data/raw/`.
+2. Place the raw tensile test CSV files inside `data/raw/`.
 
-3\. Open the project folder in your terminal.
+3. Open the project folder in your terminal.
 
-4\. Run:
+4. Run:
 
 
 
@@ -86,11 +86,11 @@ python main.py
 
 
 
-\- \*\*main.py:\*\* Runs the complete analysis and generates graphs.
+- **main.py:** Runs the complete analysis and generates graphs.
 
-\- \*\*specimen.py:\*\* Defines specimen and tensile test classes, including data cleaning and mechanical property calculations.
+- **specimen.py:** Defines specimen and tensile test classes, including data cleaning and mechanical property calculations.
 
-\- \*\*campaign.py:\*\* Manages multiple tensile tests and generates the summary table.
+- **campaign.py:** Manages multiple tensile tests and generates the summary table.
 
 
 
@@ -136,7 +136,4 @@ Incomplete tests are flagged, and their UTS and fracture strain are left empty.
 
 ---
 
-
-
-*Developed as part of a Python-based tensile test data analysis project.*
 
