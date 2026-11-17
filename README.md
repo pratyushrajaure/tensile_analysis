@@ -1,4 +1,4 @@
-\# Tensile Test Analysis
+# Tensile Test Analysis
 
 
 
@@ -6,13 +6,13 @@ A Python project for analysing tensile test data of different materials: steel, 
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
 ```text
 
-tensile\_analysis/
+tensile_analysis/
 
 │
 
@@ -44,7 +44,7 @@ tensile\_analysis/
 
 
 
-\## Requirements
+## Requirements
 
 
 
@@ -60,7 +60,7 @@ pip install numpy pandas matplotlib
 
 
 
-\## How to Run
+## How to Run
 
 
 
@@ -82,7 +82,7 @@ python main.py
 
 
 
-\## Project Files
+## Project Files
 
 
 
@@ -94,7 +94,7 @@ python main.py
 
 
 
-\## Outputs
+## Outputs
 
 
 
@@ -102,17 +102,17 @@ The program generates:
 
 
 
-\- `summary.csv` – Calculated mechanical properties for each test.
+- `summary.csv` – Calculated mechanical properties for each test.
 
-\- Force vs displacement graphs.
+- Force vs displacement graphs.
 
-\- Stress vs strain curves for each material.
+- Stress vs strain curves for each material.
 
-\- Yield strength comparison box plot.
+- Yield strength comparison box plot.
 
 
 
-\## Mechanical Properties
+## Mechanical Properties
 
 
 
@@ -120,13 +120,13 @@ The project calculates:
 
 
 
-\- Young's Modulus (GPa)
+- Young's Modulus (GPa)
 
-\- Yield Strength (MPa) using the 0.2% offset method
+- Yield Strength (MPa) using the 0.2% offset method
 
-\- Ultimate Tensile Strength (MPa)
+- Ultimate Tensile Strength (MPa)
 
-\- Fracture Strain
+- Fracture Strain
 
 
 
@@ -134,9 +134,9 @@ Incomplete tests are flagged, and their UTS and fracture strain are left empty.
 
 
 
-\---
+---
 
 
 
-\*Developed as part of a Python-based tensile test data analysis project.\*
+*Developed as part of a Python-based tensile test data analysis project.*
 
